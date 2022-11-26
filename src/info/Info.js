@@ -2,6 +2,8 @@ import self from "../img/self.jpeg"
 import musicAppPic from "../img/musicAppPic.jpeg"
 import expressPic from "../img/expressPic.jpeg"
 import ASPMVCPic from "../img/ASPMVCPic.jpeg"
+import carServicesAppPic from "../img/carServicesAppPic.jpg"
+
 
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
 
@@ -24,7 +26,7 @@ export const info = {
         },
         {
             emoji: "💼",
-            text: "open to a job"
+            text: "working as a Full Stack developer at Matrix"
         },
         {
             emoji: "📧",
@@ -74,6 +76,11 @@ export const info = {
             title: "Music App – Full Stack Project",
             source: "https://github.com/OhadSaadia/MusicAppFull", 
             image: musicAppPic
+        },
+        {
+            title: "Car Services App – Full Stack Project (on progress)",
+            source: "https://github.com/OhadSaadia/React-and-ASP-Car-Services-App-on-progress",
+            image: carServicesAppPic
         },
         {
             title: "NodeJS – Express simple CRUD app",
